@@ -1,0 +1,109 @@
+{
+  "name": "简单发布文章工作流",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "trigger-node",
+      "name": "手动触发",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "title",
+              "value": "测试文章标题"
+            },
+            {
+              "name": "content",
+              "value": "这是测试文章的内容。\n\n您可以在这里添加 Markdown 格式的文本。"
+            },
+            {
+              "name": "excerpt",
+              "value": "文章摘要"
+            },
+            {
+              "name": "author",
+              "value": "管理员"
+            },
+            {
+              "name": "locale",
+              "value": "zh"
+            },
+            {
+              "name": "status",
+              "value": "published"
+            }
+          ]
+        }
+      },
+      "id": "set-data",
+      "name": "设置文章数据",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://your-project.vercel.app/api/posts",
+        "authentication": "none",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-api-key",
+              "value": "your-api-key-here"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json) }}",
+        "options": {}
+      },
+      "id": "http-request",
+      "name": "发送到API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [680, 300]
+    }
+  ],
+  "connections": {
+    "手动触发": {
+      "main": [
+        [
+          {
+            "node": "设置文章数据",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "设置文章数据": {
+      "main": [
+        [
+          {
+            "node": "发送到API",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": []
+}

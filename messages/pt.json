@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Início",
+    "brand": "Marca",
+    "products": "Produtos",
+    "about": "Sobre Nós",
+    "contact": "Contato",
+    "news": "Notícias"
+  },
+  "home": {
+    "title": "Soluções de Telas Industriais",
+    "subtitle": "Mais de 10 Anos de Experiência Profissional em Vendas de Telas Industriais",
+    "description": "Somos especializados na venda de telas industriais com amplo estoque de marcas líderes mundiais, incluindo AUO, BOE, Sharp, KOE, Innolux, NEC, Tianma, Kyocera e NLT.",
+    "cta": "Entre em Contato",
+    "learnMore": "Saiba Mais",
+    "partnersTitle": "Nossas Marcas Parceiras",
+    "popularModels": "Modelos de Display Populares",
+    "popularModelsDesc": "Seleção de nossos painéis LCD industriais mais populares dos principais fabricantes",
+    "inquiry": "Consultar Agora"
+  },
+  "brand": {
+    "title": "Nossa Marca",
+    "subtitle": "Confiado por Líderes da Indústria",
+    "description": "Com mais de uma década de experiência, nos estabelecemos como um parceiro confiável na indústria de telas industriais.",
+    "experience": "Anos de Experiência",
+    "brands": "Marcas Parceiras",
+    "clients": "Clientes Satisfeitos"
+  },
+  "products": {
+    "title": "Nossos Produtos",
+    "subtitle": "Telas Industriais Premium",
+    "description": "Oferecemos uma gama completa de telas industriais dos principais fabricantes mundiais.",
+    "brands": {
+      "auo": "AU Optronics - Fabricante líder de TFT-LCD",
+      "boe": "BOE Technology Group - Líder em tecnologia de displays",
+      "sharp": "Sharp Corporation - Pioneiro em tecnologia LCD",
+      "koe": "Kaohsiung Opto-Electronics - Displays de alta qualidade",
+      "innolux": "Innolux Corporation - Soluções inovadoras de display",
+      "nec": "NEC Display Solutions - Displays profissionais",
+      "tianma": "Tianma Microelectronics - Tecnologia avançada de display",
+      "kyocera": "Kyocera Display - Soluções confiáveis de display",
+      "nlt": "NLT Technologies - Produtos especializados de display"
+    }
+  },
+  "about": {
+    "title": "Sobre Nós",
+    "subtitle": "Seu Parceiro Confiável em Telas Industriais",
+    "mission": "Nossa Missão",
+    "missionText": "Fornecer soluções de telas industriais de alta qualidade com serviço excepcional e preços competitivos.",
+    "vision": "Nossa Visão",
+    "visionText": "Tornar-se o principal fornecedor global de telas industriais.",
+    "values": "Nossos Valores",
+    "valuesText": "Qualidade, Confiabilidade, Inovação e Satisfação do Cliente."
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Fale Conosco",
+    "name": "Nome",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "message": "Mensagem",
+    "send": "Enviar Mensagem",
+    "info": "Informações de Contato",
+    "address": "Endereço",
+    "success": "Mensagem enviada com sucesso!",
+    "error": "Falha ao enviar mensagem. Tente novamente."
+  },
+  "news": {
+    "title": "Últimas Notícias",
+    "subtitle": "Mantenha-se Atualizado com Insights da Indústria",
+    "readMore": "Leia Mais",
+    "back": "Voltar para Notícias",
+    "publishedOn": "Publicado em",
+    "noNews": "Ainda não há artigos de notícias disponíveis."
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados.",
+    "description": "Fornecedor profissional de telas industriais com mais de 10 anos de experiência."
+  }
+}

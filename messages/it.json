@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Home",
+    "brand": "Marchio",
+    "products": "Prodotti",
+    "about": "Chi Siamo",
+    "contact": "Contatti",
+    "news": "Notizie"
+  },
+  "home": {
+    "title": "Soluzioni per Display Industriali",
+    "subtitle": "Oltre 10 Anni di Esperienza Professionale nelle Vendite di Display Industriali",
+    "description": "Siamo specializzati nella vendita di display industriali con un ampio inventario di marchi leader mondiali tra cui AUO, BOE, Sharp, KOE, Innolux, NEC, Tianma, Kyocera e NLT.",
+    "cta": "Contattaci",
+    "learnMore": "Scopri di Più",
+    "partnersTitle": "I Nostri Marchi Partner",
+    "popularModels": "Modelli di Display Popolari",
+    "popularModelsDesc": "Selezione dei nostri pannelli LCD industriali più popolari dai principali produttori",
+    "inquiry": "Richiedi Ora"
+  },
+  "brand": {
+    "title": "Il Nostro Marchio",
+    "subtitle": "Fidato dai Leader del Settore",
+    "description": "Con oltre un decennio di esperienza, ci siamo affermati come partner affidabile nell'industria dei display industriali.",
+    "experience": "Anni di Esperienza",
+    "brands": "Marchi Partner",
+    "clients": "Clienti Soddisfatti"
+  },
+  "products": {
+    "title": "I Nostri Prodotti",
+    "subtitle": "Display Industriali Premium",
+    "description": "Offriamo una gamma completa di display industriali dai principali produttori mondiali.",
+    "brands": {
+      "auo": "AU Optronics - Produttore leader di TFT-LCD",
+      "boe": "BOE Technology Group - Leader nella tecnologia dei display",
+      "sharp": "Sharp Corporation - Pioniere nella tecnologia LCD",
+      "koe": "Kaohsiung Opto-Electronics - Display di alta qualità",
+      "innolux": "Innolux Corporation - Soluzioni di display innovative",
+      "nec": "NEC Display Solutions - Display professionali",
+      "tianma": "Tianma Microelectronics - Tecnologia di display avanzata",
+      "kyocera": "Kyocera Display - Soluzioni di display affidabili",
+      "nlt": "NLT Technologies - Prodotti di display specializzati"
+    }
+  },
+  "about": {
+    "title": "Chi Siamo",
+    "subtitle": "Il Tuo Partner Affidabile nei Display Industriali",
+    "mission": "La Nostra Missione",
+    "missionText": "Fornire soluzioni di display industriali di alta qualità con servizio eccezionale e prezzi competitivi.",
+    "vision": "La Nostra Visione",
+    "visionText": "Diventare il principale fornitore globale di display industriali.",
+    "values": "I Nostri Valori",
+    "valuesText": "Qualità, Affidabilità, Innovazione e Soddisfazione del Cliente."
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Resta in Contatto",
+    "name": "Nome",
+    "email": "Email",
+    "phone": "Telefono",
+    "message": "Messaggio",
+    "send": "Invia Messaggio",
+    "info": "Informazioni di Contatto",
+    "address": "Indirizzo",
+    "success": "Messaggio inviato con successo!",
+    "error": "Invio del messaggio fallito. Riprova."
+  },
+  "news": {
+    "title": "Ultime Notizie",
+    "subtitle": "Rimani Aggiornato con gli Approfondimenti del Settore",
+    "readMore": "Leggi di Più",
+    "back": "Torna alle Notizie",
+    "publishedOn": "Pubblicato il",
+    "noNews": "Nessun articolo di notizie disponibile ancora."
+  },
+  "footer": {
+    "rights": "Tutti i diritti riservati.",
+    "description": "Fornitore professionale di display industriali con oltre 10 anni di esperienza."
+  }
+}

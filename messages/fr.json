@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "brand": "Marque",
+    "products": "Produits",
+    "about": "À Propos",
+    "contact": "Contact",
+    "news": "Actualités"
+  },
+  "home": {
+    "title": "Solutions d'Écrans Industriels",
+    "subtitle": "Plus de 10 Ans d'Expérience Professionnelle dans la Vente d'Écrans Industriels",
+    "description": "Nous sommes spécialisés dans la vente d'écrans industriels avec un vaste inventaire de marques leaders mondiales, notamment AUO, BOE, Sharp, KOE, Innolux, NEC, Tianma, Kyocera et NLT.",
+    "cta": "Contactez-Nous",
+    "learnMore": "En Savoir Plus",
+    "partnersTitle": "Nos Marques Partenaires",
+    "popularModels": "Modèles d'Affichage Populaires",
+    "popularModelsDesc": "Sélection de nos panneaux LCD industriels les plus populaires des principaux fabricants",
+    "inquiry": "Demander Maintenant"
+  },
+  "brand": {
+    "title": "Notre Marque",
+    "subtitle": "Approuvé par les Leaders de l'Industrie",
+    "description": "Avec plus d'une décennie d'expérience, nous nous sommes établis comme un partenaire fiable dans l'industrie des écrans industriels.",
+    "experience": "Années d'Expérience",
+    "brands": "Marques Partenaires",
+    "clients": "Clients Satisfaits"
+  },
+  "products": {
+    "title": "Nos Produits",
+    "subtitle": "Écrans Industriels Premium",
+    "description": "Nous offrons une gamme complète d'écrans industriels des principaux fabricants mondiaux.",
+    "brands": {
+      "auo": "AU Optronics - Fabricant leader de TFT-LCD",
+      "boe": "BOE Technology Group - Leader de la technologie d'affichage",
+      "sharp": "Sharp Corporation - Pionnier de la technologie LCD",
+      "koe": "Kaohsiung Opto-Electronics - Écrans de haute qualité",
+      "innolux": "Innolux Corporation - Solutions d'affichage innovantes",
+      "nec": "NEC Display Solutions - Écrans professionnels",
+      "tianma": "Tianma Microelectronics - Technologie d'affichage avancée",
+      "kyocera": "Kyocera Display - Solutions d'affichage fiables",
+      "nlt": "NLT Technologies - Produits d'affichage spécialisés"
+    }
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "subtitle": "Votre Partenaire de Confiance en Écrans Industriels",
+    "mission": "Notre Mission",
+    "missionText": "Fournir des solutions d'écrans industriels de haute qualité avec un service exceptionnel et des prix compétitifs.",
+    "vision": "Notre Vision",
+    "visionText": "Devenir le principal fournisseur mondial d'écrans industriels.",
+    "values": "Nos Valeurs",
+    "valuesText": "Qualité, Fiabilité, Innovation et Satisfaction Client."
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Prenez Contact",
+    "name": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "message": "Message",
+    "send": "Envoyer le Message",
+    "info": "Informations de Contact",
+    "address": "Adresse",
+    "success": "Message envoyé avec succès!",
+    "error": "Échec de l'envoi du message. Veuillez réessayer."
+  },
+  "news": {
+    "title": "Dernières Actualités",
+    "subtitle": "Restez Informé des Perspectives de l'Industrie",
+    "readMore": "Lire Plus",
+    "back": "Retour aux Actualités",
+    "publishedOn": "Publié le",
+    "noNews": "Aucun article d'actualité disponible pour le moment."
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "description": "Fournisseur professionnel d'écrans industriels avec plus de 10 ans d'expérience."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Home",
+    "brand": "Brand",
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact",
+    "news": "News"
+  },
+  "home": {
+    "title": "Industrial Display Screen Solutions",
+    "subtitle": "Over 10 Years of Professional Experience in Industrial Display Sales",
+    "description": "We specialize in selling industrial display screens with extensive inventory from world-leading brands including AUO, BOE, Sharp, KOE, Innolux, NEC, Tianma, Kyocera, and NLT.",
+    "cta": "Contact Us",
+    "learnMore": "Learn More",
+    "partnersTitle": "Our Partner Brands",
+    "popularModels": "Popular Display Models",
+    "popularModelsDesc": "Featured selection of our most popular industrial LCD display panels from leading manufacturers",
+    "inquiry": "Inquire Now"
+  },
+  "brand": {
+    "title": "Our Brand",
+    "subtitle": "Trusted by Industry Leaders",
+    "description": "With over a decade of experience, we've established ourselves as a reliable partner in the industrial display industry.",
+    "experience": "Years of Experience",
+    "brands": "Partner Brands",
+    "clients": "Satisfied Clients"
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Premium Industrial Display Screens",
+    "description": "We offer a comprehensive range of industrial display screens from the world's leading manufacturers.",
+    "brands": {
+      "auo": "AU Optronics - Leading TFT-LCD manufacturer",
+      "boe": "BOE Technology Group - Display technology leader",
+      "sharp": "Sharp Corporation - Pioneer in LCD technology",
+      "koe": "Kaohsiung Opto-Electronics - High-quality displays",
+      "innolux": "Innolux Corporation - Innovative display solutions",
+      "nec": "NEC Display Solutions - Professional displays",
+      "tianma": "Tianma Microelectronics - Advanced display technology",
+      "kyocera": "Kyocera Display - Reliable display solutions",
+      "nlt": "NLT Technologies - Specialized display products"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Your Trusted Partner in Industrial Displays",
+    "mission": "Our Mission",
+    "missionText": "To provide high-quality industrial display solutions with exceptional service and competitive pricing.",
+    "vision": "Our Vision",
+    "visionText": "To become the leading global supplier of industrial display screens.",
+    "values": "Our Values",
+    "valuesText": "Quality, Reliability, Innovation, and Customer Satisfaction."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in Touch",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "send": "Send Message",
+    "info": "Contact Information",
+    "address": "Address",
+    "success": "Message sent successfully!",
+    "error": "Failed to send message. Please try again."
+  },
+  "news": {
+    "title": "Latest News",
+    "subtitle": "Stay Updated with Industry Insights",
+    "readMore": "Read More",
+    "back": "Back to News",
+    "publishedOn": "Published on",
+    "noNews": "No news articles available yet."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "description": "Professional industrial display screen supplier with over 10 years of experience."
+  }
+}

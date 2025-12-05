@@ -1,0 +1,118 @@
+{
+  "name": "定时发布文章工作流",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 6
+            }
+          ]
+        }
+      },
+      "id": "schedule-trigger",
+      "name": "每6小时触发",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "title",
+              "value": "工控显示屏行业动态"
+            },
+            {
+              "name": "content",
+              "value": "# 最新行业动态\n\n## 市场趋势\n\n工控显示屏市场持续增长。\n\n## 技术创新\n\n- 高分辨率显示\n- 节能技术\n- 工业级耐用性"
+            },
+            {
+              "name": "excerpt",
+              "value": "了解工控显示屏行业最新动态"
+            },
+            {
+              "name": "author",
+              "value": "编辑部"
+            },
+            {
+              "name": "locale",
+              "value": "zh"
+            },
+            {
+              "name": "status",
+              "value": "published"
+            }
+          ]
+        }
+      },
+      "id": "prepare-data",
+      "name": "准备数据",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://your-project.vercel.app/api/posts",
+        "authentication": "none",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-api-key",
+              "value": "your-api-key-here"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json) }}",
+        "options": {}
+      },
+      "id": "publish-post",
+      "name": "发布文章",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [680, 300]
+    }
+  ],
+  "connections": {
+    "每6小时触发": {
+      "main": [
+        [
+          {
+            "node": "准备数据",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "准备数据": {
+      "main": [
+        [
+          {
+            "node": "发布文章",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": []
+}

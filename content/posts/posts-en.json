@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "title": "Welcome to Industrial Display Blog",
+    "slug": "welcome-to-industrial-display-blog",
+    "excerpt": "We are excited to launch our new blog featuring industry insights, product updates, and technical resources for industrial display solutions.",
+    "content": "# Welcome to Our Blog\n\nWe are thrilled to announce the launch of our official blog! Here, you'll find:\n\n## Industry Insights\n\nStay updated with the latest trends and developments in the industrial display industry.\n\n## Product Updates\n\nLearn about new products, features, and availability from leading manufacturers like AUO, BOE, Sharp, and more.\n\n## Technical Resources\n\nAccess detailed technical information, specifications, and application guides to help you choose the right display solution.\n\n## Customer Success Stories\n\nRead about how our clients are successfully implementing industrial displays in their projects.\n\nThank you for your continued support!",
+    "author": "Admin",
+    "publishedAt": "2024-01-15T10:00:00.000Z",
+    "locale": "en",
+    "tags": ["announcement", "welcome"],
+    "status": "published"
+  }
+]

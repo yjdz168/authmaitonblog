@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Trang Chủ",
+    "brand": "Thương Hiệu",
+    "products": "Sản Phẩm",
+    "about": "Về Chúng Tôi",
+    "contact": "Liên Hệ",
+    "news": "Tin Tức"
+  },
+  "home": {
+    "title": "Giải Pháp Màn Hình Công Nghiệp",
+    "subtitle": "Hơn 10 Năm Kinh Nghiệm Chuyên Nghiệp Trong Bán Màn Hình Công Nghiệp",
+    "description": "Chúng tôi chuyên bán màn hình công nghiệp với kho hàng phong phú từ các thương hiệu hàng đầu thế giới bao gồm AUO, BOE, Sharp, KOE, Innolux, NEC, Tianma, Kyocera và NLT.",
+    "cta": "Liên Hệ Chúng Tôi",
+    "learnMore": "Tìm Hiểu Thêm",
+    "partnersTitle": "Thương Hiệu Đối Tác Của Chúng Tôi",
+    "popularModels": "Mẫu Màn Hình Phổ Biến",
+    "popularModelsDesc": "Lựa chọn các tấm LCD công nghiệp phổ biến nhất từ các nhà sản xuất hàng đầu",
+    "inquiry": "Liên Hệ Ngay"
+  },
+  "brand": {
+    "title": "Thương Hiệu Của Chúng Tôi",
+    "subtitle": "Được Tin Cậy Bởi Các Nhà Lãnh Đạo Ngành",
+    "description": "Với hơn một thập kỷ kinh nghiệm, chúng tôi đã khẳng định mình là đối tác đáng tin cậy trong ngành màn hình công nghiệp.",
+    "experience": "Năm Kinh Nghiệm",
+    "brands": "Thương Hiệu Đối Tác",
+    "clients": "Khách Hàng Hài Lòng"
+  },
+  "products": {
+    "title": "Sản Phẩm Của Chúng Tôi",
+    "subtitle": "Màn Hình Công Nghiệp Cao Cấp",
+    "description": "Chúng tôi cung cấp một loạt các màn hình công nghiệp từ các nhà sản xuất hàng đầu thế giới.",
+    "brands": {
+      "auo": "AU Optronics - Nhà sản xuất TFT-LCD hàng đầu",
+      "boe": "BOE Technology Group - Người dẫn đầu công nghệ màn hình",
+      "sharp": "Sharp Corporation - Tiên phong trong công nghệ LCD",
+      "koe": "Kaohsiung Opto-Electronics - Màn hình chất lượng cao",
+      "innolux": "Innolux Corporation - Giải pháp màn hình sáng tạo",
+      "nec": "NEC Display Solutions - Màn hình chuyên nghiệp",
+      "tianma": "Tianma Microelectronics - Công nghệ màn hình tiên tiến",
+      "kyocera": "Kyocera Display - Giải pháp màn hình đáng tin cậy",
+      "nlt": "NLT Technologies - Sản phẩm màn hình chuyên dụng"
+    }
+  },
+  "about": {
+    "title": "Về Chúng Tôi",
+    "subtitle": "Đối Tác Đáng Tin Cậy Của Bạn Trong Màn Hình Công Nghiệp",
+    "mission": "Sứ Mệnh Của Chúng Tôi",
+    "missionText": "Cung cấp giải pháp màn hình công nghiệp chất lượng cao với dịch vụ xuất sắc và giá cả cạnh tranh.",
+    "vision": "Tầm Nhìn Của Chúng Tôi",
+    "visionText": "Trở thành nhà cung cấp màn hình công nghiệp hàng đầu toàn cầu.",
+    "values": "Giá Trị Của Chúng Tôi",
+    "valuesText": "Chất Lượng, Độ Tin Cậy, Đổi Mới và Sự Hài Lòng Của Khách Hàng."
+  },
+  "contact": {
+    "title": "Liên Hệ",
+    "subtitle": "Liên Lạc Với Chúng Tôi",
+    "name": "Tên",
+    "email": "Email",
+    "phone": "Điện Thoại",
+    "message": "Tin Nhắn",
+    "send": "Gửi Tin Nhắn",
+    "info": "Thông Tin Liên Hệ",
+    "address": "Địa Chỉ",
+    "success": "Tin nhắn đã được gửi thành công!",
+    "error": "Gửi tin nhắn thất bại. Vui lòng thử lại."
+  },
+  "news": {
+    "title": "Tin Tức Mới Nhất",
+    "subtitle": "Cập Nhật Thông Tin Ngành",
+    "readMore": "Đọc Thêm",
+    "back": "Quay Lại Tin Tức",
+    "publishedOn": "Xuất bản vào",
+    "noNews": "Chưa có bài viết tin tức nào."
+  },
+  "footer": {
+    "rights": "Bảo lưu mọi quyền.",
+    "description": "Nhà cung cấp màn hình công nghiệp chuyên nghiệp với hơn 10 năm kinh nghiệm."
+  }
+}

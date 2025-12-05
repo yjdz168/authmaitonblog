@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Strona Główna",
+    "brand": "Marka",
+    "products": "Produkty",
+    "about": "O Nas",
+    "contact": "Kontakt",
+    "news": "Aktualności"
+  },
+  "home": {
+    "title": "Rozwiązania Wyświetlaczy Przemysłowych",
+    "subtitle": "Ponad 10 Lat Profesjonalnego Doświadczenia w Sprzedaży Wyświetlaczy Przemysłowych",
+    "description": "Specjalizujemy się w sprzedaży wyświetlaczy przemysłowych z bogatym zapasem wiodących światowych marek, w tym AUO, BOE, Sharp, KOE, Innolux, NEC, Tianma, Kyocera i NLT.",
+    "cta": "Skontaktuj się z Nami",
+    "learnMore": "Dowiedz się Więcej",
+    "partnersTitle": "Nasze Marki Partnerskie",
+    "popularModels": "Popularne Modele Wyświetlaczy",
+    "popularModelsDesc": "Wybór naszych najpopularniejszych przemysłowych paneli LCD od wiodących producentów",
+    "inquiry": "Zapytaj Teraz"
+  },
+  "brand": {
+    "title": "Nasza Marka",
+    "subtitle": "Zaufani przez Liderów Branży",
+    "description": "Z ponad dziesięcioletnim doświadczeniem ugruntowaliśmy naszą pozycję jako niezawodny partner w branży wyświetlaczy przemysłowych.",
+    "experience": "Lat Doświadczenia",
+    "brands": "Marki Partnerskie",
+    "clients": "Zadowolonych Klientów"
+  },
+  "products": {
+    "title": "Nasze Produkty",
+    "subtitle": "Wyświetlacze Przemysłowe Premium",
+    "description": "Oferujemy kompleksową gamę wyświetlaczy przemysłowych od wiodących światowych producentów.",
+    "brands": {
+      "auo": "AU Optronics - Wiodący producent TFT-LCD",
+      "boe": "BOE Technology Group - Lider technologii wyświetlaczy",
+      "sharp": "Sharp Corporation - Pionier technologii LCD",
+      "koe": "Kaohsiung Opto-Electronics - Wysokiej jakości wyświetlacze",
+      "innolux": "Innolux Corporation - Innowacyjne rozwiązania wyświetlaczy",
+      "nec": "NEC Display Solutions - Wyświetlacze profesjonalne",
+      "tianma": "Tianma Microelectronics - Zaawansowana technologia wyświetlaczy",
+      "kyocera": "Kyocera Display - Niezawodne rozwiązania wyświetlaczy",
+      "nlt": "NLT Technologies - Specjalistyczne produkty wyświetlaczy"
+    }
+  },
+  "about": {
+    "title": "O Nas",
+    "subtitle": "Twój Zaufany Partner w Wyświetlaczach Przemysłowych",
+    "mission": "Nasza Misja",
+    "missionText": "Dostarczanie wysokiej jakości rozwiązań wyświetlaczy przemysłowych z wyjątkową obsługą i konkurencyjnymi cenami.",
+    "vision": "Nasza Wizja",
+    "visionText": "Stać się wiodącym globalnym dostawcą wyświetlaczy przemysłowych.",
+    "values": "Nasze Wartości",
+    "valuesText": "Jakość, Niezawodność, Innowacyjność i Satysfakcja Klienta."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Skontaktuj się z Nami",
+    "name": "Imię",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "message": "Wiadomość",
+    "send": "Wyślij Wiadomość",
+    "info": "Informacje Kontaktowe",
+    "address": "Adres",
+    "success": "Wiadomość wysłana pomyślnie!",
+    "error": "Nie udało się wysłać wiadomości. Spróbuj ponownie."
+  },
+  "news": {
+    "title": "Najnowsze Aktualności",
+    "subtitle": "Bądź na Bieżąco z Wiadomościami Branżowymi",
+    "readMore": "Czytaj Więcej",
+    "back": "Powrót do Aktualności",
+    "publishedOn": "Opublikowano",
+    "noNews": "Brak dostępnych artykułów."
+  },
+  "footer": {
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "description": "Profesjonalny dostawca wyświetlaczy przemysłowych z ponad 10-letnim doświadczeniem."
+  }
+}

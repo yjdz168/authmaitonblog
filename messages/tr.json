@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "brand": "Marka",
+    "products": "Ürünler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "news": "Haberler"
+  },
+  "home": {
+    "title": "Endüstriyel Ekran Çözümleri",
+    "subtitle": "Endüstriyel Ekran Satışında 10 Yılı Aşkın Profesyonel Deneyim",
+    "description": "AUO, BOE, Sharp, KOE, Innolux, NEC, Tianma, Kyocera ve NLT dahil olmak üzere dünya lideri markalardan geniş stokla endüstriyel ekran satışında uzmanız.",
+    "cta": "Bize Ulaşın",
+    "learnMore": "Daha Fazla Bilgi",
+    "partnersTitle": "Partner Markalarımız",
+    "popularModels": "Popüler Ekran Modelleri",
+    "popularModelsDesc": "Önde gelen üreticilerden en popüler endüstriyel LCD ekran panellerimizin seçimi",
+    "inquiry": "Şimdi Sorgula"
+  },
+  "brand": {
+    "title": "Markamız",
+    "subtitle": "Sektör Liderleri Tarafından Güvenilir",
+    "description": "On yılı aşkın deneyimimizle, endüstriyel ekran sektöründe güvenilir bir ortak olarak kendimizi kanıtladık.",
+    "experience": "Yıllık Deneyim",
+    "brands": "Partner Markalar",
+    "clients": "Memnun Müşteriler"
+  },
+  "products": {
+    "title": "Ürünlerimiz",
+    "subtitle": "Premium Endüstriyel Ekranlar",
+    "description": "Dünyanın önde gelen üreticilerinden kapsamlı bir endüstriyel ekran yelpazesi sunuyoruz.",
+    "brands": {
+      "auo": "AU Optronics - Önde gelen TFT-LCD üreticisi",
+      "boe": "BOE Technology Group - Ekran teknolojisi lideri",
+      "sharp": "Sharp Corporation - LCD teknolojisinin öncüsü",
+      "koe": "Kaohsiung Opto-Electronics - Yüksek kaliteli ekranlar",
+      "innolux": "Innolux Corporation - Yenilikçi ekran çözümleri",
+      "nec": "NEC Display Solutions - Profesyonel ekranlar",
+      "tianma": "Tianma Microelectronics - İleri ekran teknolojisi",
+      "kyocera": "Kyocera Display - Güvenilir ekran çözümleri",
+      "nlt": "NLT Technologies - Özel ekran ürünleri"
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "subtitle": "Endüstriyel Ekranlarda Güvenilir Ortağınız",
+    "mission": "Misyonumuz",
+    "missionText": "Olağanüstü hizmet ve rekabetçi fiyatlarla yüksek kaliteli endüstriyel ekran çözümleri sağlamak.",
+    "vision": "Vizyonumuz",
+    "visionText": "Endüstriyel ekranların önde gelen küresel tedarikçisi olmak.",
+    "values": "Değerlerimiz",
+    "valuesText": "Kalite, Güvenilirlik, Yenilik ve Müşteri Memnuniyeti."
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Bize Ulaşın",
+    "name": "İsim",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "message": "Mesaj",
+    "send": "Mesaj Gönder",
+    "info": "İletişim Bilgileri",
+    "address": "Adres",
+    "success": "Mesaj başarıyla gönderildi!",
+    "error": "Mesaj gönderilemedi. Lütfen tekrar deneyin."
+  },
+  "news": {
+    "title": "Son Haberler",
+    "subtitle": "Sektör İçgörüleriyle Güncel Kalın",
+    "readMore": "Devamını Oku",
+    "back": "Haberlere Dön",
+    "publishedOn": "Yayınlanma Tarihi",
+    "noNews": "Henüz haber makalesi bulunmamaktadır."
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır.",
+    "description": "10 yılı aşkın deneyime sahip profesyonel endüstriyel ekran tedarikçisi."
+  }
+}

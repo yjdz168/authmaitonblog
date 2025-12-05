@@ -1,0 +1,207 @@
+{
+  "name": "博客自动发布工作流",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 6
+            }
+          ]
+        }
+      },
+      "id": "1",
+      "name": "定时触发器",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "title",
+              "value": "工控显示屏行业动态"
+            },
+            {
+              "name": "content",
+              "value": "# 最新行业动态\n\n## 市场趋势\n\n工控显示屏市场持续增长，主要品牌如 AUO、BOE、Sharp 等不断推出创新产品。\n\n## 技术创新\n\n- **高分辨率**: 4K 和 8K 显示屏逐渐普及\n- **节能技术**: 新一代 LED 背光技术\n- **耐用性**: 工业级品质，适应恶劣环境\n\n## 应用领域\n\n1. 制造业自动化\n2. 医疗设备\n3. 交通运输\n4. 零售终端\n\n更多信息请联系我们的销售团队。"
+            },
+            {
+              "name": "excerpt",
+              "value": "了解工控显示屏行业最新动态和技术趋势"
+            },
+            {
+              "name": "author",
+              "value": "编辑部"
+            },
+            {
+              "name": "locale",
+              "value": "zh"
+            }
+          ],
+          "array": [
+            {
+              "name": "tags",
+              "value": ["行业动态", "工控显示屏", "技术创新"]
+            }
+          ]
+        }
+      },
+      "id": "2",
+      "name": "准备文章数据",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [450, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://your-project.vercel.app/api/posts",
+        "authentication": "none",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-api-key",
+              "value": "your-super-secret-api-key-change-this"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": []
+        },
+        "jsonParameters": true,
+        "options": {},
+        "bodyParametersJson": "={\n  \"title\": \"{{ $json.title }}\",\n  \"content\": \"{{ $json.content }}\",\n  \"excerpt\": \"{{ $json.excerpt }}\",\n  \"author\": \"{{ $json.author }}\",\n  \"locale\": \"{{ $json.locale }}\",\n  \"tags\": {{ $json.tags }},\n  \"status\": \"published\"\n}"
+      },
+      "id": "3",
+      "name": "发布到博客API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [670, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "boolean": [
+            {
+              "value1": "={{ $json.success }}",
+              "value2": true
+            }
+          ]
+        }
+      },
+      "id": "4",
+      "name": "检查是否成功",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [890, 300]
+    },
+    {
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "message",
+              "value": "文章发布成功！标题: {{ $json.data.title }}"
+            }
+          ]
+        }
+      },
+      "id": "5",
+      "name": "成功通知",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [1110, 200]
+    },
+    {
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "error",
+              "value": "文章发布失败: {{ $json.error }}"
+            }
+          ]
+        }
+      },
+      "id": "6",
+      "name": "失败通知",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [1110, 400]
+    }
+  ],
+  "connections": {
+    "定时触发器": {
+      "main": [
+        [
+          {
+            "node": "准备文章数据",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "准备文章数据": {
+      "main": [
+        [
+          {
+            "node": "发布到博客API",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "发布到博客API": {
+      "main": [
+        [
+          {
+            "node": "检查是否成功",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "检查是否成功": {
+      "main": [
+        [
+          {
+            "node": "成功通知",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "失败通知",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2024-12-04T00:00:00.000Z",
+  "versionId": "1"
+}

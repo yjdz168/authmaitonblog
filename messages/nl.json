@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Home",
+    "brand": "Merk",
+    "products": "Producten",
+    "about": "Over Ons",
+    "contact": "Contact",
+    "news": "Nieuws"
+  },
+  "home": {
+    "title": "Industriële Displayoplossingen",
+    "subtitle": "Meer dan 10 Jaar Professionele Ervaring in Industriële Displayverkoop",
+    "description": "Wij zijn gespecialiseerd in de verkoop van industriële displays met uitgebreide voorraad van toonaangevende wereldmerken waaronder AUO, BOE, Sharp, KOE, Innolux, NEC, Tianma, Kyocera en NLT.",
+    "cta": "Neem Contact Op",
+    "learnMore": "Meer Informatie",
+    "partnersTitle": "Onze Partnermerken",
+    "popularModels": "Populaire Displaymodellen",
+    "popularModelsDesc": "Uitgelichte selectie van onze populairste industriële LCD-displaypanelen van toonaangevende fabrikanten",
+    "inquiry": "Nu Informeren"
+  },
+  "brand": {
+    "title": "Ons Merk",
+    "subtitle": "Vertrouwd door Industrieleiders",
+    "description": "Met meer dan een decennium ervaring hebben we ons gevestigd als een betrouwbare partner in de industriële displayindustrie.",
+    "experience": "Jaar Ervaring",
+    "brands": "Partnermerken",
+    "clients": "Tevreden Klanten"
+  },
+  "products": {
+    "title": "Onze Producten",
+    "subtitle": "Premium Industriële Displays",
+    "description": "Wij bieden een uitgebreid assortiment industriële displays van 's werelds toonaangevende fabrikanten.",
+    "brands": {
+      "auo": "AU Optronics - Toonaangevende TFT-LCD-fabrikant",
+      "boe": "BOE Technology Group - Displaytechnologieleider",
+      "sharp": "Sharp Corporation - Pionier in LCD-technologie",
+      "koe": "Kaohsiung Opto-Electronics - Hoogwaardige displays",
+      "innolux": "Innolux Corporation - Innovatieve displayoplossingen",
+      "nec": "NEC Display Solutions - Professionele displays",
+      "tianma": "Tianma Microelectronics - Geavanceerde displaytechnologie",
+      "kyocera": "Kyocera Display - Betrouwbare displayoplossingen",
+      "nlt": "NLT Technologies - Gespecialiseerde displayproducten"
+    }
+  },
+  "about": {
+    "title": "Over Ons",
+    "subtitle": "Uw Vertrouwde Partner in Industriële Displays",
+    "mission": "Onze Missie",
+    "missionText": "Het leveren van hoogwaardige industriële displayoplossingen met uitzonderlijke service en competitieve prijzen.",
+    "vision": "Onze Visie",
+    "visionText": "De leidende mondiale leverancier van industriële displays worden.",
+    "values": "Onze Waarden",
+    "valuesText": "Kwaliteit, Betrouwbaarheid, Innovatie en Klanttevredenheid."
+  },
+  "contact": {
+    "title": "Neem Contact Op",
+    "subtitle": "Blijf in Contact",
+    "name": "Naam",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "message": "Bericht",
+    "send": "Bericht Verzenden",
+    "info": "Contactinformatie",
+    "address": "Adres",
+    "success": "Bericht succesvol verzonden!",
+    "error": "Verzenden van bericht mislukt. Probeer opnieuw."
+  },
+  "news": {
+    "title": "Laatste Nieuws",
+    "subtitle": "Blijf op de Hoogte van Branche-inzichten",
+    "readMore": "Lees Meer",
+    "back": "Terug naar Nieuws",
+    "publishedOn": "Gepubliceerd op",
+    "noNews": "Nog geen nieuwsartikelen beschikbaar."
+  },
+  "footer": {
+    "rights": "Alle rechten voorbehouden.",
+    "description": "Professionele leverancier van industriële displays met meer dan 10 jaar ervaring."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "首页",
+    "brand": "品牌介绍",
+    "products": "产品介绍",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "news": "新闻资讯"
+  },
+  "home": {
+    "title": "工控显示屏解决方案",
+    "subtitle": "十多年专业工控显示屏销售经验",
+    "description": "我们专业从事工控显示屏销售，拥有丰富库存，销售品牌包括友达（AUO）、京东方（BOE）、夏普（Sharp）、群创（Innolux）、NEC、天马（Tianma）、京瓷（Kyocera）、NLT等世界领先品牌。",
+    "cta": "联系我们",
+    "learnMore": "了解更多",
+    "partnersTitle": "合作品牌",
+    "popularModels": "热门显示屏型号",
+    "popularModelsDesc": "精选来自领先制造商的最受欢迎工控液晶显示屏",
+    "inquiry": "立即咨询"
+  },
+  "brand": {
+    "title": "品牌介绍",
+    "subtitle": "值得信赖的行业领导者",
+    "description": "凭借超过十年的经验，我们已成为工控显示屏行业的可靠合作伙伴。",
+    "experience": "年经验",
+    "brands": "合作品牌",
+    "clients": "满意客户"
+  },
+  "products": {
+    "title": "产品介绍",
+    "subtitle": "优质工控显示屏",
+    "description": "我们提供来自世界领先制造商的全系列工控显示屏产品。",
+    "brands": {
+      "auo": "友达光电 - 领先的TFT-LCD制造商",
+      "boe": "京东方科技集团 - 显示技术领导者",
+      "sharp": "夏普公司 - LCD技术先驱",
+      "koe": "凯耀光电 - 高品质显示器",
+      "innolux": "群创光电 - 创新显示解决方案",
+      "nec": "NEC显示解决方案 - 专业显示器",
+      "tianma": "天马微电子 - 先进显示技术",
+      "kyocera": "京瓷显示 - 可靠的显示解决方案",
+      "nlt": "NLT技术 - 专业显示产品"
+    }
+  },
+  "about": {
+    "title": "关于我们",
+    "subtitle": "您值得信赖的工控显示屏合作伙伴",
+    "mission": "我们的使命",
+    "missionText": "以卓越的服务和有竞争力的价格提供高品质工控显示解决方案。",
+    "vision": "我们的愿景",
+    "visionText": "成为全球领先的工控显示屏供应商。",
+    "values": "我们的价值观",
+    "valuesText": "品质、可靠、创新和客户满意度。"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "保持联系",
+    "name": "姓名",
+    "email": "邮箱",
+    "phone": "电话",
+    "message": "留言",
+    "send": "发送消息",
+    "info": "联系信息",
+    "address": "地址",
+    "success": "消息发送成功！",
+    "error": "发送失败，请重试。"
+  },
+  "news": {
+    "title": "最新资讯",
+    "subtitle": "了解行业最新动态",
+    "readMore": "阅读更多",
+    "back": "返回资讯",
+    "publishedOn": "发布于",
+    "noNews": "暂无新闻文章。"
+  },
+  "footer": {
+    "rights": "版权所有。",
+    "description": "拥有超过10年经验的专业工控显示屏供应商。"
+  }
+}

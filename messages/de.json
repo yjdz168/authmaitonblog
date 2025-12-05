@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "brand": "Marke",
+    "products": "Produkte",
+    "about": "Über Uns",
+    "contact": "Kontakt",
+    "news": "Nachrichten"
+  },
+  "home": {
+    "title": "Industriedisplay-Lösungen",
+    "subtitle": "Über 10 Jahre Berufserfahrung im Verkauf von Industriedisplays",
+    "description": "Wir sind spezialisiert auf den Verkauf von Industriedisplays mit umfangreichem Lagerbestand führender weltweiter Marken wie AUO, BOE, Sharp, KOE, Innolux, NEC, Tianma, Kyocera und NLT.",
+    "cta": "Kontaktieren Sie Uns",
+    "learnMore": "Mehr Erfahren",
+    "partnersTitle": "Unsere Partnermarken",
+    "popularModels": "Beliebte Display-Modelle",
+    "popularModelsDesc": "Ausgewählte Auswahl unserer beliebtesten industriellen LCD-Display-Panels führender Hersteller",
+    "inquiry": "Jetzt Anfragen"
+  },
+  "brand": {
+    "title": "Unsere Marke",
+    "subtitle": "Vertraut von Branchenführern",
+    "description": "Mit über einem Jahrzehnt Erfahrung haben wir uns als zuverlässiger Partner in der Industriedisplay-Branche etabliert.",
+    "experience": "Jahre Erfahrung",
+    "brands": "Partnermarken",
+    "clients": "Zufriedene Kunden"
+  },
+  "products": {
+    "title": "Unsere Produkte",
+    "subtitle": "Premium Industriedisplays",
+    "description": "Wir bieten eine umfassende Palette von Industriedisplays der weltweit führenden Hersteller.",
+    "brands": {
+      "auo": "AU Optronics - Führender TFT-LCD-Hersteller",
+      "boe": "BOE Technology Group - Display-Technologieführer",
+      "sharp": "Sharp Corporation - Pionier der LCD-Technologie",
+      "koe": "Kaohsiung Opto-Electronics - Hochwertige Displays",
+      "innolux": "Innolux Corporation - Innovative Display-Lösungen",
+      "nec": "NEC Display Solutions - Professionelle Displays",
+      "tianma": "Tianma Microelectronics - Fortschrittliche Display-Technologie",
+      "kyocera": "Kyocera Display - Zuverlässige Display-Lösungen",
+      "nlt": "NLT Technologies - Spezialisierte Display-Produkte"
+    }
+  },
+  "about": {
+    "title": "Über Uns",
+    "subtitle": "Ihr Vertrauensvoller Partner für Industriedisplays",
+    "mission": "Unsere Mission",
+    "missionText": "Hochwertige Industriedisplay-Lösungen mit außergewöhnlichem Service und wettbewerbsfähigen Preisen bereitzustellen.",
+    "vision": "Unsere Vision",
+    "visionText": "Zum führenden globalen Anbieter von Industriedisplays zu werden.",
+    "values": "Unsere Werte",
+    "valuesText": "Qualität, Zuverlässigkeit, Innovation und Kundenzufriedenheit."
+  },
+  "contact": {
+    "title": "Kontaktieren Sie Uns",
+    "subtitle": "In Kontakt Bleiben",
+    "name": "Name",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "message": "Nachricht",
+    "send": "Nachricht Senden",
+    "info": "Kontaktinformationen",
+    "address": "Adresse",
+    "success": "Nachricht erfolgreich gesendet!",
+    "error": "Fehler beim Senden der Nachricht. Bitte versuchen Sie es erneut."
+  },
+  "news": {
+    "title": "Neueste Nachrichten",
+    "subtitle": "Bleiben Sie auf dem Laufenden mit Brancheneinblicken",
+    "readMore": "Mehr Lesen",
+    "back": "Zurück zu Nachrichten",
+    "publishedOn": "Veröffentlicht am",
+    "noNews": "Noch keine Nachrichtenartikel verfügbar."
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "description": "Professioneller Anbieter von Industriedisplays mit über 10 Jahren Erfahrung."
+  }
+}

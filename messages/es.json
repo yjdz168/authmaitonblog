@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "brand": "Marca",
+    "products": "Productos",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "news": "Noticias"
+  },
+  "home": {
+    "title": "Soluciones de Pantallas Industriales",
+    "subtitle": "Más de 10 Años de Experiencia Profesional en Ventas de Pantallas Industriales",
+    "description": "Nos especializamos en la venta de pantallas industriales con amplio inventario de marcas líderes mundiales incluyendo AUO, BOE, Sharp, KOE, Innolux, NEC, Tianma, Kyocera y NLT.",
+    "cta": "Contáctenos",
+    "learnMore": "Más Información",
+    "partnersTitle": "Nuestras Marcas Asociadas",
+    "popularModels": "Modelos de Pantalla Populares",
+    "popularModelsDesc": "Selección destacada de nuestros paneles LCD industriales más populares de fabricantes líderes",
+    "inquiry": "Consultar Ahora"
+  },
+  "brand": {
+    "title": "Nuestra Marca",
+    "subtitle": "Confiado por Líderes de la Industria",
+    "description": "Con más de una década de experiencia, nos hemos establecido como un socio confiable en la industria de pantallas industriales.",
+    "experience": "Años de Experiencia",
+    "brands": "Marcas Asociadas",
+    "clients": "Clientes Satisfechos"
+  },
+  "products": {
+    "title": "Nuestros Productos",
+    "subtitle": "Pantallas Industriales Premium",
+    "description": "Ofrecemos una gama completa de pantallas industriales de los principales fabricantes del mundo.",
+    "brands": {
+      "auo": "AU Optronics - Fabricante líder de TFT-LCD",
+      "boe": "BOE Technology Group - Líder en tecnología de pantallas",
+      "sharp": "Sharp Corporation - Pionero en tecnología LCD",
+      "koe": "Kaohsiung Opto-Electronics - Pantallas de alta calidad",
+      "innolux": "Innolux Corporation - Soluciones de pantalla innovadoras",
+      "nec": "NEC Display Solutions - Pantallas profesionales",
+      "tianma": "Tianma Microelectronics - Tecnología de pantalla avanzada",
+      "kyocera": "Kyocera Display - Soluciones de pantalla confiables",
+      "nlt": "NLT Technologies - Productos de pantalla especializados"
+    }
+  },
+  "about": {
+    "title": "Nosotros",
+    "subtitle": "Su Socio Confiable en Pantallas Industriales",
+    "mission": "Nuestra Misión",
+    "missionText": "Proporcionar soluciones de pantallas industriales de alta calidad con servicio excepcional y precios competitivos.",
+    "vision": "Nuestra Visión",
+    "visionText": "Convertirnos en el principal proveedor global de pantallas industriales.",
+    "values": "Nuestros Valores",
+    "valuesText": "Calidad, Confiabilidad, Innovación y Satisfacción del Cliente."
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "Póngase en Contacto",
+    "name": "Nombre",
+    "email": "Correo",
+    "phone": "Teléfono",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "info": "Información de Contacto",
+    "address": "Dirección",
+    "success": "¡Mensaje enviado con éxito!",
+    "error": "Error al enviar el mensaje. Inténtelo de nuevo."
+  },
+  "news": {
+    "title": "Últimas Noticias",
+    "subtitle": "Manténgase Actualizado con Conocimientos de la Industria",
+    "readMore": "Leer Más",
+    "back": "Volver a Noticias",
+    "publishedOn": "Publicado el",
+    "noNews": "Aún no hay artículos de noticias disponibles."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "description": "Proveedor profesional de pantallas industriales con más de 10 años de experiencia."
+  }
+}

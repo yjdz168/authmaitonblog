@@ -26,7 +26,7 @@ export default async function NewsDetailPage({
     notFound();
   }
 
-  const contentHtml = marked(post.content);
+  const contentHtml = await marked(post.content);
 
   return (
     <div className="bg-white">

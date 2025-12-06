@@ -47,12 +47,28 @@ export async function getAllPosts(locale: string = 'en'): Promise<Post[]> {
 export async function getPostBySlug(slug: string, locale: string = 'en'): Promise<Post | null> {
   try {
     const supabase = getSupabaseClient();
-    const { data, error } = await supabase
+    
+    // 尝试直接匹配 slug
+    let { data, error } = await supabase
       .from(POSTS_TABLE)
       .select('*')
       .eq('slug', slug)
       .eq('locale', locale)
       .single();
+
+    // 如果没找到，尝试对 slug 进行 URL 编码后再匹配（处理中文 slug）
+    if (error && error.code === 'PGRST116') {
+      const encodedSlug = encodeURIComponent(decodeURIComponent(slug));
+      const result = await supabase
+        .from(POSTS_TABLE)
+        .select('*')
+        .eq('slug', encodedSlug)
+        .eq('locale', locale)
+        .single();
+      
+      data = result.data;
+      error = result.error;
+    }
 
     if (error) {
       console.error('Error getting post by slug:', error);

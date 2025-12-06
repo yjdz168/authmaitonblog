@@ -113,7 +113,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
       </div>
 
       {/* Features Section */}
-      <div className="py-16">
+      <div className="py-16 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center p-6">
@@ -131,6 +131,77 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
               <div className="text-xl font-semibold text-gray-900 mb-2">Products in Stock</div>
               <p className="text-gray-600">Extensive inventory ready for delivery</p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Application Scenarios Section */}
+      <div className="py-16 bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-4 text-gray-900">
+            {t('applicationsTitle')}
+          </h2>
+          <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+            {t('applicationsDesc')}
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              { icon: '🏭', title: 'Industrial Automation', desc: 'Manufacturing control systems and production lines' },
+              { icon: '🏥', title: 'Medical Equipment', desc: 'Hospital monitoring and diagnostic devices' },
+              { icon: '🚗', title: 'Transportation', desc: 'Vehicle displays and navigation systems' },
+              { icon: '🏢', title: 'Commercial', desc: 'POS terminals and kiosk displays' },
+              { icon: '⚡', title: 'Energy & Utilities', desc: 'Power plant monitoring and control' },
+              { icon: '🛡️', title: 'Security', desc: 'Surveillance and access control systems' },
+              { icon: '📡', title: 'Telecommunications', desc: 'Network equipment and servers' },
+              { icon: '🎓', title: 'Education', desc: 'Interactive learning and training systems' }
+            ].map((app, index) => (
+              <div key={index} className="bg-gradient-to-br from-primary-50 to-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:scale-105">
+                <div className="text-4xl mb-3">{app.icon}</div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">{app.title}</h3>
+                <p className="text-sm text-gray-600">{app.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Why Choose Us Section */}
+      <div className="py-16 bg-gradient-to-br from-primary-600 to-primary-800 text-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-12">
+            {t('whyChooseUs')}
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {[
+              { icon: '✓', title: 'Quality Assurance', desc: 'All products undergo strict quality inspection' },
+              { icon: '✓', title: 'Fast Delivery', desc: 'Same-day shipping for in-stock items' },
+              { icon: '✓', title: 'Technical Support', desc: '24/7 expert technical assistance' },
+              { icon: '✓', title: 'Competitive Pricing', desc: 'Best value with volume discounts' }
+            ].map((reason, index) => (
+              <div key={index} className="text-center">
+                <div className="w-16 h-16 bg-white text-primary-600 rounded-full flex items-center justify-center font-bold text-2xl mx-auto mb-4">
+                  {reason.icon}
+                </div>
+                <h3 className="text-xl font-bold mb-2">{reason.title}</h3>
+                <p className="text-primary-100">{reason.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Certifications Section */}
+      <div className="py-16 bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+            {t('certificationsTitle')}
+          </h2>
+          <div className="flex flex-wrap justify-center items-center gap-8">
+            {['ISO 9001', 'RoHS', 'CE', 'FCC', 'UL'].map((cert) => (
+              <div key={cert} className="flex items-center justify-center w-32 h-32 bg-gray-100 rounded-lg border-2 border-gray-300 hover:border-primary-600 transition-colors">
+                <span className="text-lg font-bold text-gray-700">{cert}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>

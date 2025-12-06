@@ -8,7 +8,7 @@ export async function GET(request: NextRequest) {
     const searchParams = request.nextUrl.searchParams;
     const locale = searchParams.get('locale') || 'en';
     
-    const posts = getAllPosts(locale);
+    const posts = await getAllPosts(locale);
     
     return NextResponse.json({
       success: true,

@@ -1,0 +1,82 @@
+{
+  "name": "多语言发布工作流",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "trigger-node",
+      "name": "手动触发",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// 定义多语言文章内容\nconst languages = [\n  {\n    locale: 'en',\n    title: 'Latest Industry Update - English',\n    content: '# Industry News\\n\\nThis month shows strong growth in the industrial display market.\\n\\n## Key Highlights\\n\\n- New product launches from major manufacturers\\n- Technology innovations\\n- Market expansion',\n    excerpt: 'Monthly industry update and market trends analysis',\n    author: 'Editorial Team',\n    tags: ['Industry', 'News', 'English']\n  },\n  {\n    locale: 'zh',\n    title: '最新行业动态 - 中文',\n    content: '# 行业新闻\\n\\n本月工控显示屏市场呈现强劲增长态势。\\n\\n## 主要亮点\\n\\n- 各大厂商推出新产品\\n- 技术创新突破\\n- 市场扩张',\n    excerpt: '每月行业动态和市场趋势分析',\n    author: '编辑部',\n    tags: ['行业', '新闻', '中文']\n  },\n  {\n    locale: 'ja',\n    title: '最新業界ニュース - 日本語',\n    content: '# 業界ニュース\\n\\n今月は産業用ディスプレイ市場で強い成長を示しています。\\n\\n## 主なハイライト\\n\\n- 主要メーカーの新製品発売\\n- 技術革新\\n- 市場拡大',\n    excerpt: '月次業界動向と市場トレンド分析',\n    author: '編集チーム',\n    tags: ['業界', 'ニュース', '日本語']\n  },\n  {\n    locale: 'es',\n    title: 'Últimas Noticias de la Industria - Español',\n    content: '# Noticias de la Industria\\n\\nEste mes muestra un fuerte crecimiento en el mercado de pantallas industriales.\\n\\n## Aspectos Destacados\\n\\n- Lanzamientos de nuevos productos\\n- Innovaciones tecnológicas\\n- Expansión del mercado',\n    excerpt: 'Actualización mensual de la industria y análisis de tendencias',\n    author: 'Equipo Editorial',\n    tags: ['Industria', 'Noticias', 'Español']\n  },\n  {\n    locale: 'fr',\n    title: 'Dernières Nouvelles de l\\'Industrie - Français',\n    content: '# Actualités de l\\'Industrie\\n\\nCe mois-ci montre une forte croissance du marché des écrans industriels.\\n\\n## Points Clés\\n\\n- Lancements de nouveaux produits\\n- Innovations technologiques\\n- Expansion du marché',\n    excerpt: 'Mise à jour mensuelle de l\\'industrie et analyse des tendances',\n    author: 'Équipe Éditoriale',\n    tags: ['Industrie', 'Actualités', 'Français']\n  },\n  {\n    locale: 'de',\n    title: 'Neueste Branchennachrichten - Deutsch',\n    content: '# Branchennachrichten\\n\\nDieser Monat zeigt starkes Wachstum im Industriedisplay-Markt.\\n\\n## Wichtige Highlights\\n\\n- Neue Produkteinführungen\\n- Technologische Innovationen\\n- Markterweiterung',\n    excerpt: 'Monatliches Branchen-Update und Trendanalyse',\n    author: 'Redaktionsteam',\n    tags: ['Industrie', 'Nachrichten', 'Deutsch']\n  },\n  {\n    locale: 'ko',\n    title: '최신 업계 소식 - 한국어',\n    content: '# 업계 뉴스\\n\\n이번 달 산업용 디스플레이 시장은 강력한 성장을 보이고 있습니다.\\n\\n## 주요 하이라이트\\n\\n- 주요 제조업체의 신제품 출시\\n- 기술 혁신\\n- 시장 확장',\n    excerpt: '월간 업계 동향 및 시장 트렌드 분석',\n    author: '편집팀',\n    tags: ['업계', '뉴스', '한국어']\n  },\n  {\n    locale: 'it',\n    title: 'Ultime Notizie del Settore - Italiano',\n    content: '# Notizie del Settore\\n\\nQuesto mese mostra una forte crescita nel mercato dei display industriali.\\n\\n## Punti Salienti\\n\\n- Lanci di nuovi prodotti\\n- Innovazioni tecnologiche\\n- Espansione del mercato',\n    excerpt: 'Aggiornamento mensile del settore e analisi delle tendenze',\n    author: 'Team Editoriale',\n    tags: ['Settore', 'Notizie', 'Italiano']\n  }\n];\n\n// 为每种语言创建一个输出项\nreturn languages.map(lang => ({\n  json: {\n    title: lang.title,\n    content: lang.content,\n    excerpt: lang.excerpt,\n    author: lang.author,\n    locale: lang.locale,\n    status: 'published',\n    tags: lang.tags\n  }\n}));"
+      },
+      "id": "function-node",
+      "name": "生成多语言文章",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://authmationblog.vercel.app/api/posts",
+        "authentication": "none",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-api-key",
+              "value": "1f5dff058fed4b8796ff0d6d6100011f"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json) }}",
+        "options": {}
+      },
+      "id": "http-request",
+      "name": "发送到API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [680, 300]
+    }
+  ],
+  "connections": {
+    "手动触发": {
+      "main": [
+        [
+          {
+            "node": "生成多语言文章",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "生成多语言文章": {
+      "main": [
+        [
+          {
+            "node": "发送到API",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": ["多语言", "自动发布"]
+}

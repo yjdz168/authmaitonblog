@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getAllPosts, createPost } from '@/lib/posts-supabase';
 import { verifyApiKey } from '@/lib/auth';
 
-// GET /api/posts - Get all posts
+// GET /api/posts - Get all posts (Fixed: added await)
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;

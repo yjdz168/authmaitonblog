@@ -57,7 +57,9 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">{t('email')}</h3>
-                  <p className="text-gray-700">info@industrialdisplay.com</p>
+                  <a href="mailto:yj31@yinjidz.com" className="text-primary-600 hover:text-primary-700">
+                    yj31@yinjidz.com
+                  </a>
                 </div>
               </div>
               <div className="flex items-start">
@@ -66,7 +68,9 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">{t('phone')}</h3>
-                  <p className="text-gray-700">+1 (555) 123-4567</p>
+                  <a href="tel:+8619864655591" className="text-primary-600 hover:text-primary-700">
+                    +86 19864655591
+                  </a>
                 </div>
               </div>
               <div className="flex items-start">
@@ -75,7 +79,11 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">{t('address')}</h3>
-                  <p className="text-gray-700">123 Business Street, Industrial Park, City, Country</p>
+                  <p className="text-gray-700">
+                    Room 1206, Building 8, Hengda Fashion Huigu Building,<br />
+                    Dalang Street, Longhua District,<br />
+                    Shenzhen City, Guangdong Province, China
+                  </p>
                 </div>
               </div>
             </div>
